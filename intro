@@ -1,3 +1,4 @@
+   -------------------------- INTRODUCTION -----------------------------------------------------
 types of languages:
 1. procedural :- step by step (java , c++,python)
 2. functional :- follows first class functions (python )
@@ -10,7 +11,7 @@ performs type checking at compile time      |   performs type checking at runtim
 errors shown at compile time                |   errors shown at runtime
 declare data type before you use it         |   no need to declare data type
 more control                                |   saves time but errors at rumtime 
-eg :- Java , c , c++                        |   eg :- python , javascript , ruby 
+eg :- Java , c , c++                        |   eg :- python , javascript , ruby  
 
 
 types of memory :- 
