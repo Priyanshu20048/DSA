@@ -1,0 +1,116 @@
+types of languages:
+1. procedural :- step by step (java , c++,python)
+2. functional :- follows first class functions (python )
+3. object oriented :- code+data = object (collection of data types)
+
+
+Static vs Dynamic languages 
+          Static                            |                     Dynamic     
+performs type checking at compile time      |   performs type checking at runtime
+errors shown at compile time                |   errors shown at runtime
+declare data type before you use it         |   no need to declare data type
+more control                                |   saves time but errors at rumtime 
+eg :- Java , c , c++                        |   eg :- python , javascript , ruby 
+
+
+types of memory :- 
+1. stack memory :- like a line 
+2. heap memory :- like a  mountain 
+eg:- a = 10 (here a = reference variable , 10 = object )
+a is pointing t0 10 
+reference variable is store in stack memory 
+ object is stored in heap memory
+ ** one object can be pointed by multiple reference variable
+ ** if no reference variable is pointing to object then it is removed from the memory (garbage collected) automatically
+ ** if any reference value  change the value of object , it is reflected to all
+
+
+types of errors:
+1. syntax errors :- errors in the structure of the code
+2. runtime errors :- errors that occur during the execution of the code
+3. logical errors :- errors in the logic of the code that produce incorrect results
+
+flowcharts :- visualise our algorithm  
+start/stop :- oval shape 
+input /output :- //gm 
+processing  :- rectangle
+condition :- diamond
+loop :- circle
+flow of control :- arrow
+
+// How Java code executes
+.java file -> (compiler - entire file ) -> .class file -> (interpreter - line by line ) -> machine code 
+.java :- extension of java file (source code) (human readable format)
+.class :- extension of class file (byte code) (machine readable format)
+this byte code will not run directly on the machine , it needs an interpreter to convert it into machine code (JVM )
+
+//  Reasons java is platfrom independence 
+byte code can run on all operating systems 
+we need to conevert source code to machine code so computer can understand 
+compiler does this by converting it into an executable format 
+this executable code is a set of instructions that the computer can understand
+executable code is different for every os 
+after compiling c/c++ code we get .exe file (platform dependent)
+In Java , we get .class file (byte code) which is platform independent
+JVM is platform dependent , it converts byte code into machine code
+
+
+// Architecture of JAVA 
+JDK :- Java Development Kit (JRE + JVM + Development tools)
+JRE :- Java Runtime Environment (JVM + Library classes) 
+JVM :- Java Virtual Machine (converts byte code into machine code)
+JIT :- Just in Time  
+                        
+               JDK
+                    provide run time environment and rum the java program  
+                    package that includes :-
+                    1. development tools 
+                    2.jre
+                    3. a compiler 
+                    4. archiver 
+                    5. interprtor 
+                    6. documentation generator
+                    7. debugger
+               JRE 
+                    installation package that provides environment to only run the program 
+                    consists of :- 
+                    1. deployment technologies 
+                    2. user interface toolkits
+                    3. integration libraries
+                    4. base libraries 
+                    5. JVM 
+             compile time 
+.java file -> compiler -> .class file
+
+               run time
+class loader -> byte code verifier -> interpreter -> runtime -> hrdware 
+
+
+JVM Execution :- 
+interpreter 
+             - line by line eexecution 
+             - when one method is called many times it will interpret again and again 
+JIT :- 
+            - those methods that are repeated, 
+                 provides direct machine code 
+                 so re- interpertation is not required
+            - makes execution faster 
+            - garbage collector                          
+java source code -> jdk -> bytecode -> jvm (does this by using jre)
+
+how JVM works class loader 
+     - Loading 
+               - reads class file and generate binary data 
+               - an object if this class is created in heap 
+     - Linking 
+               - JVM veridfies the .class file 
+               - alloactes memory for class variables and default values 
+               - replace symbolic refernces with direct reference
+     - Initialisation 
+               - all static variables(propeerty common to all objects ) are assigned wit theor values 
+               defined in the code and static block 
+
+JVM contains the stack and heap memory allocation 
+
+
+
