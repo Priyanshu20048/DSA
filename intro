@@ -113,5 +113,6 @@ how JVM works class loader
 
 JVM contains the stack and heap memory allocation 
 
-
+// every file of java is a class
+// class name should be equal to the file name 
 
