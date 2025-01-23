@@ -60,5 +60,36 @@ public class First_program {
 // a = identifier 
 
 
-type casting and conversion 
+//  AUTOMATIC TYPE CONVERSION
+// you can have int in float type but not vice - versa 
+// left side should be greater then right side (float > int )
+// automatic type conversion for larger 
+
+//  TYPE CASTING :- compressing the bigger no into smaller one explicitly
+// int num = 67.86f -> ggives error 
+// to converting float into num 
+// int num = (int)(67.86f) -> gives 67
+
+// AUTOMATIC TYPE PROMOTION  IN EXPRESSIONS 
+// int a = 257 ; 
+// byte b = (byte)(a);
+// System.out.println(b) -> gives 1 // (257 % 256) because byte can hold upto 256 if we exceed it gives remainder 
+
+// byte c = 40;
+// byte d = 50 ;
+// byte e = 100;
+// int f = c*d/e;
+// d -> 20 
+// // ab jb c*d kiya toh answer = 2000 aaya but woh byte ki limit exceed kr chuka hai 
+// // **** so how it is possible 
+// // yaha java ne automatically  intermedita term  (c*d) ko int mei promote kr diya (in the expression )
+
+// Rules for promotion :-
+// 1. all the byte short and character values are promoted to integer 
+// 2. if any  operand is longer then whole operation is promoted to longer one 
+// 3. 
+
+// Java follows Unicode 
+// any character or any language can be printed (hindi also )
+
 
