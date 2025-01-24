@@ -38,16 +38,28 @@
 //        }}
 //--------------------------------------------------------------------------------------
 // Doing Q1 in while loop 
+// public class if_else{
+//     public static void main(String[] args){
+//         int n = 0;
+//         while (n<5){
+//             System.out.println(n);
+//             n++;
+//         }
+//     }
+// }
+
+//--------------------------------------------------------------------------------
+// do-while loop
+// execute atleast once 
+
 public class if_else{
-    public static void main(String[] args){
-        int n = 0;
-        while (n<5){
-            System.out.println(n);
-            n++;
-        }
+    public static void main (String [] args){
+        int n = 1;
+        do {
+            System.out.print("Hello world");
+        } while (n > 1);
     }
 }
-
     
 
 
