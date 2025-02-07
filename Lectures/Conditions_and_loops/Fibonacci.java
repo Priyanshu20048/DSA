@@ -6,6 +6,14 @@ public class Fibonacci{
         int n = in.nextInt();
         int p = 0;
         int i = 1 ;
+        if (n == 0){
+            System.out.print(p);
+        }
+        else if (n==1){
+            System.out.print(i);
+        }
+        else {
+        
         int count = 2 ;
         while (count <=n){
             int temp = i ;
@@ -15,7 +23,7 @@ public class Fibonacci{
         }
         System.out.println(i);
 
-
+        }
 
     }
 }
