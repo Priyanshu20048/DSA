@@ -58,6 +58,7 @@ public class First_program {
 // int a = 10 ; 
 // in primitive data type :- 10 is a laiteral 
 // a = identifier 
+// primitives are stored in stack memory 
 
 
 //  AUTOMATIC TYPE CONVERSION
