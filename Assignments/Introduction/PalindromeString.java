@@ -16,5 +16,5 @@ public class Palindrome{
     }
     else {
          System.out.print("N");
-    }
+    };
 }
