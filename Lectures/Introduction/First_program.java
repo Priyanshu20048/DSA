@@ -93,4 +93,21 @@ public class First_program {
 // Java follows Unicode 
 // any character or any language can be printed (hindi also )
 
+// Types of print Methods in Java
+// 1️⃣ print() – Prints output without a newline, keeping the cursor on the same line.
 
+// 2️⃣ println() – Prints output with a newline, moving the cursor to the next line.
+
+// 3️⃣ printf() – Used for formatted output, allowing control over decimal places, alignment, and other formatting options.
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
+// Method	            Data Type Read
+// nextInt()	        Integer (int)
+// nextLong()	        Long (long)
+// nextFloat()	        Float (float)
+// nextDouble()	        Double (double)
+// nextBoolean()     	Boolean (true/false)
+// next()	            Single word (String)
+// nextLine()	        Entire line (String)
+// nextByte()	        Byte (byte)
+// nextShort()	        Short (short)
