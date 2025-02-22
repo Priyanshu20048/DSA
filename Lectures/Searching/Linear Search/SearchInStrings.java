@@ -14,18 +14,30 @@ public class SearchInStrings{
        System.out.println(ans);
        }
 
+    //    static boolean Search(String names,char d ){
+    //     if (names.length() == 0){
+    //         return false;
+    //     }
+    //     for (int i = 0; i < names.length();i++){
+    //         if (d == names.charAt(i)){
+    //           return true;
+    //         }
+    //     }
+    //     return false;
+    //    }
+       
+       // char into Array :- another method 
        static boolean Search(String names,char d ){
         if (names.length() == 0){
             return false;
         }
-        for (int i = 0; i < names.length();i++){
-            if (d == names.charAt(i)){
+        for (char ch : names.toCharArray()){
+            if (ch == d){
               return true;
             }
         }
         return false;
        }
-       
 
     
 }
