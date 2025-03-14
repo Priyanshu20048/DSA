@@ -5,11 +5,10 @@ public class OrderAgnostic {
         int [] arr1 ={45,34,23,11,6,3,1};
         int target = 34;
         int ans = ogbs(arr1,target);
-        System.out.println(ans);
-
-        
+        System.out.println(ans);   
 
     }
+    
     static int ogbs(int[] arr, int target) {
         int start = 0;
         int end = arr.length -1;
