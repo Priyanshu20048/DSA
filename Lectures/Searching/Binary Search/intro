@@ -1,0 +1,39 @@
+// used for sorted arrays (either in ascending or descending)
+// Ques :- arr = [2, 4, 6, 9, 11, 12, 14, 20, 36, 28]
+// target = 36
+
+
+// Approach of Binary Search 
+// 1. take the middle element of array uisng indexes
+// 2. in Ascending order :- if target > mid => search in right 
+// 3. in Descending order :- if target > mid => Search in left 
+// 4. if middle element == target element => answer 
+// we are not creating cpy of array again and again 
+// if start > end :- element not found 
+
+
+// Why Binary Search 
+// Best scenario :- if target is 1st middle value
+// Best Case Complexity :- O(1) i.e Constant
+
+// Worst Case :- k:- total no of levels in worst case 
+// keep checking till only 1 element is remaining in array and then either you will find the elemnt or not 
+// Total no of comparisns = log (N) ; where n is the no of elements // constants are ignored 
+
+// N = 2^k
+// log (N) = log (2^k) => log N = k log 2 => k = log N/ log 2 
+// k = logN (base 2)
+// Worst Case Complexity :- O(log N)
+
+// Order Agnostic in Binary Search 
+// modify code accordig to descendng order 
+// arr = [90, 75, 18, 12, 6, 4, 3, 1]
+// target = 75 
+// if target > mid => left side => end = mid -1 ;
+// if target < mid => right side => start = mid +1;
+
+// How to find Order of array 
+// Best Possible way 
+// if start > end => Increasing order => Ascending 
+// if start < end => Decreasing Order => Descending
+
