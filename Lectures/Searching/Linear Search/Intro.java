@@ -63,7 +63,7 @@ public class Intro{
     }
 
 // returning true / false  from Linear Search 
- static boolean  LinearSearch2(int[] nums,int a){
+ static boolean  LinearSearch3(int[] nums,int a){
         if (nums.length ==0){
             return false ;
         }
@@ -76,4 +76,4 @@ public class Intro{
         // this element will execute if none of the return statements above have executed
         // hence the traget not found 
         return false ; 
-    }
+    }}
