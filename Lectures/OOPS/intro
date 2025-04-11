@@ -1,0 +1,39 @@
+Class :- named group of properties and function 
+by Convention class start with Upper case 
+you can use classes to create your own data type 
+// it is logical construct , not present in physical 
+
+// Creating class
+class Student {
+    int[] rno = new int [5];
+    String[] name = new String [5];
+    float[] marks = new float [5];
+}
+
+// Object :- physical entity , instance of class 
+// originally ocuppying space in memeory 
+// stored in heap memory 
+
+3 essentiall properties Of Object 
+
+1.State Of Object :- its value from is data type 
+2. Identity of Object :- whether one object ids differnet from another 
+3. Property of Object :- effect of data type operation  
+
+// the Dot Operator 
+links the name of instance variable (variable inside the object ) to refernce variale 
+
+
+// new keyword 
+use to create objects 
+// dynamically allocate memory(run time ) and return a reference variable to it 
+
+
+class Student{
+    int roll_no;
+    String name ;
+    float marks ;
+}
+Student student 1; // declaring reference variable (student1) to an object 
+
+

@@ -64,7 +64,7 @@ for (int i =0;i<10;i++){
 }
 // Internal working of List 
 // 1. size is actually fixed internally
-// 2. when your arraylist fill by some amount then:-
+// 2. when your arraylist fill by some amount (half full) then:-
 //  it will create a new array list of double the size 
 //  and the old elements are copied into the new list 
 //  and the old one is deleted

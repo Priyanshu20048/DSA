@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class MultipeArrayList{
     public static void main (String[] args){
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
@@ -7,7 +7,7 @@ public class MultipeArrayList{
         for (int i =0; i <3;i++){
             list.add(new ArrayList<>());
         }
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
         
         // add elements
         for (int i=0;i <3;i++ ){

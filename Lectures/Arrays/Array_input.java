@@ -14,7 +14,7 @@ public class Array_input{
     // for each loop 
     // for every element in array , print the element 
     for (int num:arr){
-        System.out.print(num);
+        System.out.print(num);// num represents element of array 
     }
     // another way of displaying array 
     // it has internal for loop 

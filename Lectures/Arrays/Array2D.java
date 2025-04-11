@@ -53,9 +53,9 @@ for (int row =0;row<arr.length;row++){
    
     }
 
-    //a nother method
+    //another method
     for (int row =0;row<arr.length;row++){ 
-      System.out.println(arrays.toString(arr[row]));
+      System.out.println(Arrays.toString(arr[row]));
 }
 // enhanced for loop 
 for (int[] a : arr){

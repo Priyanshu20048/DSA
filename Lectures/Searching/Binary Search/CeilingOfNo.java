@@ -17,7 +17,7 @@ public class CeilingOfNo{
         int start = 0;
         int end = arr.length -1;
         boolean isAsc;
-        if (start < end ){
+        if (arr[start] < arr[end] ){
             isAsc = true;
         } 
         else {

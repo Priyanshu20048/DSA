@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
-public class SwappingValues{
+public class SwappingValuesByIndex{
     public static void main(String[] args){
         int arr[] = new int [5];
         Scanner sc = new Scanner (System.in);
