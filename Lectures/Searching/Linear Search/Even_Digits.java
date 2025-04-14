@@ -27,6 +27,15 @@ class Even_Digits{
     }
     // count number of digits in a number 
     static int digits (int num){
+        // if numbers are negative 
+        if (num <0){
+            num = num*-1;
+        }
+        // if no is 0 itself 
+        if (num==0){
+           return 1;
+        }
+
         int count =0;
         while (num >0){
             count++;
@@ -34,4 +43,13 @@ class Even_Digits{
         }
         return count;
     }
+
+    //optimised way to count digits of number
+    // static int digits2(int num) {
+    //     // for negatives 
+    //     if (num <0){
+    //         num = num*-1;
+    //     }
+    //     return (int)(Math.log10(num)) +1;
+    // }
 }
