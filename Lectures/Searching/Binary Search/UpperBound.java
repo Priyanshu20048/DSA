@@ -1,4 +1,5 @@
 // The upper bound of a target value in a sorted array is the first position where an element is strictly greater than the target.
+// if no element found , return the length of array 
 public class UpperBound {
     public static void main(String[] args){
         int [] arr = {2,3,4,67,78,89,90,91};
