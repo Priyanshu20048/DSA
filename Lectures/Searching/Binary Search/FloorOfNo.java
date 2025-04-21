@@ -1,4 +1,5 @@
 // Floor of No :- greatest no in an array that is equal to or smaller than target 
+// floor = lower bound 
 // arr = [2, 3, 5, 9, 14, 16, 18]
 // target = 15
 import java.util.*;

@@ -1,0 +1,66 @@
+// Bubble Sort  // also known as Sinking Sort // also known as Exchanging elements 
+// arr = [ 3,1,5,4,2]
+// Bubble Sort is a comparison sort method 
+// the idea is that it fit every sorting algorithm that we do 
+// i am going to sort this array step by step 
+// All sorting algorthims are differ in steps 
+// Step-1 :- in every step you are comparing adjacent elements
+// Step-2 :- 
+
+
+-----------------------------------------------------------
+1. Step :- 
+// we gonna  start with first 2 elements and compare them
+if  2nd element is greter than the 1st element then we gonna swap it
+//then next 2 elements and do this for every element 
+now arr = [1,3,4,2,5];
+
+// Why Bubble Sort 
+1. With the first pass thhrough the array , the largest element come to the end 
+2. 
+
+-----------------------------------------------------------------------------------
+2. Step :-
+Run it for Second time 
+now arr = [1,3,2,4,5];
+
+Now , with pass 2, 2nd largest element is at the 2nd from last index
+--------------------------------------------------
+3. step do gain 
+
+// Conclusion :- 
+with every pass , the largest remaining element will come at end 
+
+
+arr=[3,1,5,4,2]
+code :- 
+1. have an index value i = 0 // i is here as counter // do all these thing but do for j = n-1 
+2. the next loop will be reunning as j = 1 ; // internal loop // j is basically sorting the array step by step 
+3. if j < j-1 then swap, now value of j increases
+4. after first pass , the largest elemnet will be at end 
+5. now its useless, to run j for even the last element because it is already sorted 
+6, j will run only upto the unsorted part 
+7. j is going till <length-i
+
+//--------------------------------------------------------------------------------------
+1. Space Complexity :- O(1) //constant // no etra space required like copying array , creating a new one is not required (also known as in place sorting algorithms)
+2. Time Complexity :- 
+              Best Case :- O(N) // sorted array 
+              Worst Case :- O(N^2) // sorted in reverse 
+              N=> no of comparisons you need
+
+As the size of Array is growing , the no of comparisons ia also growing 
+ 
+1. Best Case :- Array is sorted 
+[1,2,3,4,5] note :- when j never swaps for the value of i :- array is sorted
+hence, you can end  the program 
+
+2. Worst Case :- array is decending order sorted
+[5,4,3,2,1] :- 
+
+
+//----------------------
+it is a stable sorted algorithm :- when the order is maintained for the same values 
+order should be same when value is same 
+
+[10(b),20,20(b),30,10] // here b 
