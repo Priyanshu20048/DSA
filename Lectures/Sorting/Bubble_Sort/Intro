@@ -61,6 +61,10 @@ hence, you can end  the program
 
 //----------------------
 it is a stable sorted algorithm :- when the order is maintained for the same values 
-order should be same when value is same 
+-> order should be same when value is same 
 
-[10(b),20,20(b),30,10] // here b 
+[10(b),20,20(b),30,10] // here b -> black colour 
+after sorting it will be 
+[10(b),10,20,20(b),30]
+// in orginal array the black ball of 10 was before the red ball of 10 , 
+and in the sorted array , this order is maintained.
