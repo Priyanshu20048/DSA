@@ -40,6 +40,7 @@ public static void message(){
         System.out.println("Hello , my name is Priyanshu");
         message4();
       }
+      // function body here changes 
       public static void message4(){
         System.out.println("Hello , my name is Priyanshu");
       }
@@ -51,8 +52,12 @@ public static void message(){
 // --------------------------------------------------------
 how function call works in language 
 1. while the functio is not finished executing , it will remain in stack 
-2. when a funtion inishes it executing , it is removed from stack
+2. when a function finishes it executing , it is removed from stack
  and the flow of program is restored to where that function was called . 
 3. when the last function (main ), function is removed from the stack , the program ends
+
+
+
+
 
 
