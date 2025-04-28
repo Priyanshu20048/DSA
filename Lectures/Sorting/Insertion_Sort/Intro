@@ -1,0 +1,14 @@
+// we are sorting the array partially 
+// it says that try sorting in parts 
+// arr = [5,3,4,1,2]
+// sort 1st till index no 1 and then till index no 2 and so on ...
+// for every index , put that elemnet at the right index of the left hand side 
+// after pass 1st (i =0) [5,3,4,1,2] -> 5 and 3 will be sorted 
+// after 2nd pass (i = 1), [3,5,4,1,2] -> 3 , 4 & 5 will be sorted 
+// after 3rd pass (i = 2) , [3,4,5,1,2] -> 1 ,3,4,5 will be sorted 
+and so on ....
+working :-
+when i = 0 , j = i+1;
+
+
+
