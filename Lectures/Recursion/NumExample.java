@@ -1,3 +1,4 @@
+import java.lang.classfile.instruction.ConstantInstruction.ArgumentConstantInstruction;
 import java.util.Scanner;
 public class NumExample {
     public static void main(String[] args) {
@@ -85,4 +86,15 @@ Visualisation of Recursion
 4. About the tree :- 
                1. see the flow of function , how they are getting in stack 
                2. identify & focus on left tree calls and right tree calls 
-               3. 
+               3. draw the tree and pointers again and again using pen and paper 
+               4. use a debugger to see the flow 
+5. See the how the values are returned at each step 
+   See where the function call will come out 
+   In the end you will come out of the main function 
+
+//--------------------------------------------------------------------------------------
+                             VARIABLES
+1. Arguments 
+2. Return type 
+3. Body of function 
+
